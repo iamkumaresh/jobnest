@@ -1,0 +1,247 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(homebackground.jpg);
+    
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+#navOpt {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    border-radius: 20%;
+    padding: 5px;
+}
+.poster {
+    height: 380px;
+    width: auto;
+    background-size: cover;
+}
+#card {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card1{
+    height: 220px;
+    width: 220px;
+    /* background-image: url(map\ pin.jpg);
+    background-size: cover; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.card1img{
+    height: 220px;
+    width: 220px;
+    background-image: url(home\ png.png);
+    background-color: rgb(150, 233, 139);
+    background-size: cover;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+.card2img{
+    height: 220px;
+    width: 220px;
+    background-image: url(map\ pin.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.c1t {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1px 1px 2px grey;
+}
+.card1:hover {
+    height: 250px;
+    width: 250px;
+    transition: 0.2s ease-in-out 0.1s;
+    transform: scale(1.1);
+}
+.card2{
+    height: 220px;
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.c2t {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1.5px 1.5px 2px black;
+}
+.card2:hover {
+    height: 250px;
+    width: 250px;
+    transition: 0.2s ease-in-out 0.1s;
+    transform: scale(1.1);  
+}
+.card3{
+    height: 220px;
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.card3:hover {
+    height: 250px;
+    width: 250px;
+    transition: 0.2s ease-in-out 0.1s;
+    transform: scale(1.1); 
+}
+.card3img{
+    height: 220px;
+    width: 220px;
+    background-image: url(state\ png.png);
+    background-color: rgb(234, 234, 213);
+    background-size: cover;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+.c3t {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1.5px 1.5px 2px gray;
+}
+.card4{
+    height: 220px;
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.card4:hover {
+    height: 250px;
+    width: 250px;
+    transition: 0.2s ease-in-out 0.1s;
+    transform: scale(1.1); 
+}
+.card4img{
+    height: 220px;
+    width: 220px;
+    background-image: url(Indian\ map.png);
+    background-color: rgb(232, 200, 17);
+    background-size: cover;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+.c4t {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    color: rgb(46, 149, 209);
+    text-shadow: 1.5px 1.5px 2px black;
+}
+.card5 {
+    
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+
+}
+.card5:hover {
+    height: 250px;
+    width: 250px;
+    transition: 0.2s ease-in-out 0.1s;
+    transform: scale(1.1);
+}
+.card5img{
+    height: 220px;
+    width: 220px;
+    background-image: url(World\ img.png);
+    background-color: rgb(70, 190, 237);
+    background-size: cover;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+.c5t {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    color: rgb(17, 17, 16);
+    text-shadow: 1.5px 1.5px 2px gray;
+}
+#home {
+    margin: 0.5rem;
+    border-radius: 10%;
+}
+#aboutUs {
+    margin: 0.5rem;
+    border-radius: 10%;
+}
+#contact {
+    margin: 0.5rem;
+    
+}
+.poster {
+    
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+}
+.bigPost {
+    display: flex;
+    height: 200px;
+    width: 150px;
+}
+.feature {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+.featuretitle {
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+.carrier {
+    font-weight: 800;
+
+}
+.note {
+    font-weight: 600;
+}
+

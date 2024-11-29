@@ -1,0 +1,43 @@
+.developer {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+#img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.imgk {
+    background-image: url(Kumareshpic.jpg);
+    background-size: cover;  
+}
+
+.imgs {
+    background-image: url(Sattikpic.jpg);
+    background-size: cover;
+    margin-top: 2rem;
+    
+}
+.imgz {
+    background-image: url(Zabedpic.jpg);
+    background-size: cover;  
+    margin-left: 5rem;
+}
+.imga {
+    background-image: url(Akashpic.jpg);
+    background-size: cover;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.imgh {
+    background-image: url(Hritwikpic.jpg);
+    background-size: cover;
+    margin-left: 5rem;
+}
+.h {
+    align-items: center;
+    text-align: center;
+}

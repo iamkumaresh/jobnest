@@ -1,0 +1,66 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.job {
+    display:flex;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+#img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.jisu {
+    background-image: url(google.jpg);
+    background-size: cover;  
+}
+.narula {
+    background-image: url(microsoft.png);
+    background-size: cover;  
+    margin-left: 5rem;
+    background-color: black;
+}
+.fuchka {
+    background-image: url(intel\ off.jpg);
+    background-size: contain;  
+    margin-top: 5rem;
+}
+.rajuda {
+    background-image: url(amazonoff.jpeg);
+    background-size: cover;  
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.hajibiriyani {
+    background-image: url(apple.png);
+    background-size: cover; 
+    margin-left: 5rem; 
+    margin-top: 5rem;
+    background-color: rgba(128, 128, 128, 0.113);
+}
+.aryan {
+    background-image: url(mcdonalds.png);
+    background-size: cover;  
+    margin-left: 5rem;  
+}
+.lenscart{
+    background-image: url(Lens\ Cart.jpg);
+    background-size: cover;  
+    margin-left: 5rem;  
+}
+.max {
+    background-image: url(Max.jpg);
+    background-size: cover; 
+    margin-left: 5rem;
+}
+.vishal{
+    background-image: url(Vishal.png);
+    background-size: cover; 
+    margin-left: 5rem;
+}

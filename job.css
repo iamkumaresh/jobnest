@@ -1,0 +1,61 @@
+*{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+.job {
+    display:flex;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+#img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.jisu {
+    background-image: url(JIS_University.jpg);
+    background-size: cover;  
+}
+.narula {
+    background-image: url(Narula\ .jpg);
+    background-size: cover;  
+    margin-left: 5rem;
+}
+.fuchka {
+    background-image: url(Fuchka.jpg);
+    background-size: cover;  
+}
+.rajuda {
+    background-image: url(Raju\ dar\ parota.png);
+    background-size: cover;  
+    margin-left: 5rem;
+}
+.hajibiriyani {
+    background-image: url(Haji\ Biriyani.jpg);
+    background-size: cover; 
+    margin-left: 5rem; 
+}
+.aryan {
+    background-image: url(Aryan\ School.jpg);
+    background-size: cover;  
+    margin-left: 5rem;  
+}
+.lenscart{
+    background-image: url(Lens\ Cart.jpg);
+    background-size: cover;  
+    margin-left: 5rem;  
+}
+.max {
+    background-image: url(Max.jpg);
+    background-size: cover; 
+    margin-left: 5rem;
+}
+.vishal{
+    background-image: url(Vishal.png);
+    background-size: cover; 
+    margin-left: 5rem;
+}
